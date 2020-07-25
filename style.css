@@ -1,0 +1,74 @@
+body{
+    background: url('as.gif') no-repeat center center fixed;
+    background-size: 100%;
+    overflow: hidden;
+    
+}
+.head{
+    text-align: center;
+    color:white;
+    text-shadow: 2px 3px 4px red;
+}
+.top{
+text-align: center;
+margin-top: 20px;
+}
+.text{
+    width: 250px;
+/*     
+    color: white;
+    background-color:royalblue; */
+    height: 30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.lis{
+    text-align: center;
+    font-size: 24px;
+    margin: 5px;
+    color: white;
+    list-style-type: none;
+}
+.delete{
+    width: 80px;
+    height: 30px;
+    background-color: yellowgreen;
+    color: white;
+    font-weight: bold;
+    border-radius: 1px;
+    margin: 3px;
+    text-transform: uppercase;
+}
+.edit{
+    width: 80px;
+    height: 30px;
+    background-color: yellowgreen;
+    color: white;
+    font-weight: bold;
+    border-radius: 1px;
+    margin: 3px;
+    text-transform: uppercase;
+}
+/* @media(max-width:300px){
+.edit,.delete{
+    flex-direction: column;
+}
+} */
+@media(max-width:300px){
+.text{
+    width: 200px;   
+   }
+ /* .btn{
+     flex-direction: column;
+    
+ } */
+ }  
